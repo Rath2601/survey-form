@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey_Form</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body>
+<div class="parent">   
+    <div class="child">
+        <label>Name<span id="star">*</span></label>
+        <input type="name">
+        <p>First</p>
+    </div>
+    <div class="child ml-3">
+        <input type="name">
+        <p>Last</p>
+    </div>
+</div>
+
+
+<div style="margin-top: 10px;">   
+    <b>Email</b><b class="star">*</b>
+</div>
+<div style="margin-bottom: 10px;">
+    <input style="width: 390px;" type="email">
+</div>
+<div>   
+    <b>Your Experience</b><b class="star">*</b>
+</div>
+<div style="margin-bottom: 10px;">
+    &#11088;&#11088;&#11088;&#11088;&#11088;
+</div>
+<p style="font-size: 17px;">Overall, how would you rate your experience with us?</p>
+<div style="margin-top: 10px;">   
+    <b>How satisfied are you with</b><b class="star">*</b>
+</div>
+<div class="table-responsive">
+<table class="table table-striped">
+    <thead>
+      <tr>
+        <th class="fcolumn"> </th>
+        <th>Very satisfied</th>
+        <th>unsatisfied</th>
+        <th>Neutral</th>
+        <th>unsatisfied</th>
+        <th>Very satisfied</th>
+
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Purchase</td>
+        <td><input type="radio" name="check"></td>
+        <td><input type="radio" name="check"></td>
+        <td><input type="radio" name="check"></td>
+        <td><input type="radio" name="check"></td>
+        <td><input type="radio" name="check"></td>
+      </tr>
+      <tr>
+        <td>Service</td>
+        <td><input type="radio" name="check1"></td>
+        <td><input type="radio" name="check1"></td>
+        <td><input type="radio" name="check1"></td>
+        <td><input type="radio" name="check1"></td>
+        <td><input type="radio" name="check1"></td>
+      </tr>
+      <tr>
+        <td>Company Overall</td>
+        <td><input type="radio" name="check2"></td>
+        <td><input type="radio" name="check2"></td>
+        <td><input type="radio" name="check2"></td>
+        <td><input type="radio" name="check2"></td>
+        <td><input type="radio" name="check2"></td>
+      </tr>
+    
+    </tbody>
+  </table>
+</div>
+<div style="margin-top: 10px;">   
+    <b>How likely are you to</b><b class="star">*</b>
+</div>
+<div class="table-responsive">
+<table class="table table-striped">
+    <thead>
+      <tr>
+        <th class="fcolumn"> </th>
+        <th>Very satisfied</th>
+        <th>unsatisfied</th>
+        <th>Neutral</th>
+        <th>unsatisfied</th>
+        <th>Very satisfied</th>
+
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Buy from us again</td>
+        <td><input type="radio" name="check"></td>
+        <td><input type="radio" name="check"></td>
+        <td><input type="radio" name="check"></td>
+        <td><input type="radio" name="check"></td>
+        <td><input type="radio" name="check"></td>
+      </tr>
+      <tr>
+        <td>Recommend our product to ours</td>
+        <td><input type="radio" name="check1"></td>
+        <td><input type="radio" name="check1"></td>
+        <td><input type="radio" name="check1"></td>
+        <td><input type="radio" name="check1"></td>
+        <td><input type="radio" name="check1"></td>
+      </tr>
+      <tr>
+        <td>Recommend our company to ours</td>
+        <td><input type="radio" name="check2"></td>
+        <td><input type="radio" name="check2"></td>
+        <td><input type="radio" name="check2"></td>
+        <td><input type="radio" name="check2"></td>
+        <td><input type="radio" name="check2"></td>
+      </tr>
+    
+    </tbody>
+  </table>
+</div>
+<div style="margin-top: 10px;">   
+    <b>Additional comments or suggestions</b>
+</div>
+<div style="margin-top: 10px;">
+    <textarea></textarea>
+</div>
+<button>Submit</button>
+</body>
+</html>
